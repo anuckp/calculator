@@ -4,26 +4,26 @@ while True:
     z=input("Enter the operator: ")
     if z=='+':
         result=x+y
-        print(result)
+        print(x,"+", y,"=", result)
         break
 
     elif z=='-':
         result=x-y
-        print(result)
+        print(x,"-", y,"=", result)
         break
     
     elif z=='*':
         result=x*y
-        print(result)
+        print(x,"*", y,"=", result)
         break
     
     elif z=='/':
         result=x/y
-        print(result)
+        print(x,"/", y,"=", result)
         break
     elif z=='%':
         result=x%y
-        print(result)
+        print(x,"%", y,"=", result)
         break
     else:
         print("choose in between + - * /")
